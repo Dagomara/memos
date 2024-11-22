@@ -25,7 +25,7 @@ services:
 configs:
   Caddyfile:
     content: |
-      memos.your-domain.com, memos.your-domain.net {
+      memos.memos-d196.onrender.com {
         reverse_proxy memos:5230
         log {
           format console
